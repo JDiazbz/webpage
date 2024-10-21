@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J2A4D6J7</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: rgb(159, 209, 219); 
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: rgb(58, 19, 19);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar {
+            margin-bottom: 0;
+            background-color: rgb(1, 126, 151);
+            border: 0;
+            font-size: 12px !important;
+            letter-spacing: 3px;
+        }
+        .navbar li a, .navbar .navbar-brand {
+            color: #d5d5d5 !important;
+            transition: transform 0.2s;
+        }
+        .navbar li a:hover, .navbar .navbar-brand:hover {
+            transform: translateY(-2px);
+        }
+        .team-section {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            flex-wrap: wrap;
+            padding-bottom: 200px;
+            flex: 1;
+        }
+        .team-member {
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: rgb(0, 0, 0);
+            position: relative;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(255, 0, 0, 0.2);
+        }
+        .team-member:nth-child(odd) {
+            background-color: rgba(153, 255, 252, 0.9);
+        }
+        .team-member:nth-child(even) {
+            background-color: rgba(153, 255, 252, 0.9);
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: rgb(0, 55, 255);
+            font-size: 25px;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .social-icons a:hover {
+            transform: translateY(-2px);
+            color: #128C7E;
+        }
+        footer {
+            background-color:rgb(1, 126, 151);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: auto;
+            font-size: 18px;
+            position: bottom;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="homepage.html">J2A4D6J7</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="project.html">PROJECT</a></li>
+                <li><a href="presentation.html">PRESENTATION</a></li>
+                <li><a href="database.html">DATABASE</a></li>
+                <li><a href="documentation.html">DOCUMENTATION</a></li>
+                <li><a href="dev-team.html">DEV TEAM</a></li>   
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Team Section -->
+<!-- Team Section -->
+<div class="team-section">
+    <div class="team-member">
+        <img src="crab.jpg" alt="Profile picture of Joel Diaz">
+        <h3>Joel Diaz</h3>
+        <p>Web Designer</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100058854300271"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/6529287"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:6529287"><i class="fas fa-phone"></i></a>
+            <a href="mailto:joelalejandrodiazjr@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="resume_link_here"><i class="fas fa-file-alt"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 All Rights Reserved</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
